@@ -27,9 +27,9 @@ const CustomerCard: React.FC<CustomerCardProps> = ({ icon, title, description, n
     <div className={`${customerCardVariants({ active })} w-[340px] h-[70px] pl-4 pr-4`} onClick={onClick}>
       <div className="flex items-center justify-between w-full h-full">
         <div className="flex items-center">
-          <div className="bg-green-200 rounded-full w-[50px] h-[50px] flex items-center justify-center">
-            {icon}
-          </div>
+        <div className="rounded-full w-[50px] h-[50px] flex items-center justify-center" style={{ background: active ? 'white' : 'linear-gradient(to right,#fccebd,#c8ffc8)' }}>
+        {icon}
+      </div>
           <div className="ml-4">
             <h2 className="text-lg font-bold">{title}</h2>
             <p className="text-gray-500 text-[12px]">{description}</p>

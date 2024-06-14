@@ -16,31 +16,31 @@ function App() {
 
   const cards = [
     {
-      icon: <i className="fa-solid fa-cart-shopping text-2xl text-black"></i>,
+      icon: <i className="fa-solid fa-cart-shopping text-xl text-black"></i>,
       title: "Order placed",
       description: "Lorem ipsum dolor sit amet",
       number: 100,
     },
     {
-      icon: <i className="fa-solid fa-cogs text-2xl text-black"></i>,
+      icon: <i className="fa-solid fa-cogs text-xl text-black"></i>,
       title: "Processing",
       description: "Lorem ipsum dolor sit amet",
       number: 100,
     },
     {
-      icon: <i className="fa-solid fa-industry text-2xl text-black"></i>,
+      icon: <i className="fa-solid fa-industry text-xl text-black"></i>,
       title: "Manufacturing",
       description: "Lorem ipsum dolor sit amet",
       number: 10,
     },
     {
-      icon: <i className="fa-solid fa-truck text-2xl text-black"></i>,
+      icon: <i className="fa-solid fa-truck text-xl text-black"></i>,
       title: "Dispatch",
       description: "Lorem ipsum dolor sit amet",
       number: 8,
     },
     {
-      icon: <i className="fa-solid fa-box text-2xl text-black"></i>,
+      icon: <i className="fa-solid fa-box text-xl text-black"></i>,
       title: "Delivered",
       description: "Lorem ipsum dolor sit amet",
       number: 10,

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.e{
+    background-color: #fccebd;
+    color:rgb(231, 231, 231);
+}
